@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development Project ideas</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <span class="logo">$</span>
+            <span class="text-container">Simple Steps Code</span>
+        </div>
+        <div class="header-buttons">
+            <button class="tutorials">Tutorials</button>
+            <button class="blog">Blog</button>
+        </div>
+    </header>
+    <div id="jumbotron">
+        <h1 class="text-container">Web development project ideas from the experts</h1>
+    </div>
+    <div id="intro-section">
+        <div class="text-container">
+            <h1>What to Expect</h1>
+            <h2>It can be tough to think of project ideas</h2>
+            <p>In fact, this is one of the most common frustrations I hear when I talk to people who are learning to code.
+
+            </p>
+            <p>To help everyone out, I decided to ask the experts what sorts of projects they would recommend.</p>
+            <p>Here's who I asked</p>
+            <ul>
+                <li>
+                    <a href="">Chris Coyier (CSS-Tricks and CodePen)</a>
+                </li>
+                <li>
+                    <a href="">Jim Hibbard (JavaScript Editor at Sitepoint)</a>
+                </li>
+                <li>
+                    <a href="">Sara Soueidan (Dev of the Year and writer at Codrops)</a>
+                </li>
+                <li>
+                    <a href="">Ben Moss (Editor at Webdesigner Depot)</a>
+                </li>
+                <li>
+                    <a href="">Laurence Bradford (Learn to Code With Me)</a>
+                </li>
+                <li>
+                    <a href="">Parker Phinney (Interview Cake)/a>
+                </li>
+                <li>
+                    <a href="">Zell Liew (ZellWK.com)</a>
+                </li>
+            </ul>
+            <p>For each person on this list, I'll quote their suggestion and then follow it up with commentary (difficulty level, reasons the suggestion is effective, etc).</p>
+            <p>Huge thanks to everyone who answered!</p>
+        </div>
+    </div>
+    <main id="idea-section">
+        <div class="idea-container">
+            <div class="text-container">
+                <h1>Chris Coyier</h1>
+                <p>Founder: CSS-Tricks, Co-Founder: CodePen, Co-Host: ShopTalk, Author: A clear, helpful book called Practical SVG</p>
+                <h1>Project ideas from Chris</h1>
+                <blockquote>I like the idea of copying a website as closely as you can. You'd only do this for practice, never for something you'd present as your own work. But a lot can be learned from emulating something you already like.</blockquote>
+                <h1>Commentary</h1>
+                <p>What I like about Chris's suggestion:</p>
+                <ul>
+                    <li>
+                        It can be whatever difficulty level you want.
+                    </li>
+                    <li>You won't run out of projects until you run out of sites on the entire internet.</li>
+                    <li>It deals with the importance of giving credit where credit is due.</li>
+                </ul>    
+        </div>
+        <div class="idea-container">
+            <div class="text-container">
+                <h1>Jim Hibbard</h1>
+                <p>JavaScript Editor at Sitepoint</p>
+                <h1>Project ideas from Chris</h1>
+                <blockquote>One of the things I'd recommend is taking a component built with one technology and trying to reimplement it yourself in another.
+
+                    For example, there are a ton of lightbox widgets out there and for a beginner, this can seem like magic — you include the lib, add a couple of data attributes to some elements and voilà, you have lightbox functionality.</blockquote>
+                <h1>Commentary</h1>
+                <p>Here's what I like about Jim's approach:
+
+                </p>
+                <ul>
+                    <li>
+                        <strong>Deeper understanding</strong>
+Implementing things in different ways helps give you a deeper understanding of the tools you use.
+                    </li>
+                    <li><strong>Self-reliance</strong>
+                        It's important to get comfortable enough that you don't need to rely on a plugin for everything.</li>
+                    <li><strong>Better code performance</strong>
+With practice, you'll be able to write the functionality you need without the extra baggage from a full plugin. To be clear, there are times when it will make sense to use a tool or plugin, but it's important to understand when it makes sense.</li>
+                </ul>    
+
+            </div>
+        </div>
+    </main>
+    <div id="outro">
+        <h1 class="outro-text">
+            If you're curious to know a fast way to learn JavaScript...
+        </h1>
+        <button class="outro-button">
+            Click here to get the free guide to do real things with JavaScript as soon as possible
+        </button>
+    </div>
+<footer>
+    Copyright © 2020 Simple Steps Code
+</footer>
+</body>
+</html>
+
+
+body {
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header {
+    display:flex;
+    flex-direction: row;
+    height: 4em;
+    align-items: center;
+}
+
+header .logo-container {
+    flex-grow: 1;
+    margin-left: 1em;
+}
+
+header .header-buttons {
+    flex-grow: 0;
+    margin-right: 2em;
+}
+
+#jumbotron {
+    width: 100%;
+    height: 25em;
+    background-color:#229CCB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-wrap: wrap;
+}
+
+#intro-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+
+#intro-section .text-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+#intro-section a {
+    color: #00AADD;
+}
+
+#intro-section h1 {
+    color: #667788;
+}
+
+#intro-section li {
+    margin-bottom: 1.5em;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #323232;
+    height: 4em;
+    color: white;
+}
+
+#idea-section {
+    background-color: #00AADD;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#idea-section .idea-container {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    background-color: white;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    border-radius: 5px;
+}
+
+#idea-section .text-container {
+    margin: 2em;
+}
+
+#outro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.outro-button {
+    color: white;
+    background-color: #15BBDD;
+    height: 6em;
+    border-radius: 5px;
+    width: 40em;
+}
